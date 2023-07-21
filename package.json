@@ -1,0 +1,49 @@
+{
+  "name": "marketplace-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "nodemon server.ts",
+    "start:inspect": "nodemon --inspect server.ts",
+    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teamblock/marketplace-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teamblock/marketplace-backend/issues"
+  },
+  "homepage": "https://github.com/Teamblock/marketplace-backend#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node-schedule": "^2.1.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@moralisweb3/common-evm-utils": "^2.18.4",
+    "@supercharge/strings": "^2.0.0",
+    "aws-sdk": "^2.1353.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "moralis": "^2.18.4",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^2.10.0",
+    "node-schedule": "^2.1.1",
+    "web3": "^1.9.0"
+  }
+}
